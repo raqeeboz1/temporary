@@ -3,19 +3,19 @@
 
 ## Required Homework 
 
-###i watched all videos .
+###i watched all videos 
 ###i have installed the AWS CLI 
 
-###i have designed the conceptual diagram .
+###i have designed the conceptual diagram 
 
 
-###i have designed the logical diagram .
+###i have designed the logical diagram 
 
 
-###created an admin user .
+###created an admin user 
 
 
-###created billing alarm .
+###created billing alarm 
 
 
 i created my billing alarm using the CLI 
