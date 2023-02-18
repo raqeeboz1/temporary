@@ -3,25 +3,26 @@
 
 ## Required Homework 
 
-###i watched all videos 
-###i have installed the AWS CLI 
+##i watched all videos 
 
-###i have designed the conceptual diagram 
+##i have installed the AWS CLI 
 
-
-###i have designed the logical diagram 
+##i have designed the conceptual diagram 
 
 
-###created an admin user 
+##i have designed the logical diagram 
 
 
-###created billing alarm 
+##created an admin user 
+
+
+##created billing alarm 
 
 
 i created my billing alarm using the CLI 
 
 
-![proof of alarm created](assets/assets/proof%20of%20alarm%20created.JPG)
+![proof of alarm created]( assets/proof%20of%20alarm%20created.JPG)
 
 
 ###AWS Bootcamp Budget created
