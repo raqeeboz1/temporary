@@ -14,7 +14,10 @@ the gitpod-yml file is updated
 ## i have designed the conceptual diagram plus and  i have designed the logical diagram 
 
  i designed the conceptual and logical diagrams in one file . i thought its better to have them in one file as they are related to sane project .(offcurse they are on two different tabs ) 
- [cruddur logical and conceptual diagram shared link for your comments ](https://lucid.app/lucidchart/48ac2595-552f-4cfe-82d8-1153a94fe615/edit?viewport_loc=-501%2C-117%2C3435%2C1461%2CYJQxwOBcrlb2&invitationId=inv_8df176ea-ca6b-4aaa-843a-7b225b34a270)
+ 
+ [cruddur logical diagram shared link for your comments ](https://lucid.app/lucidchart/48ac2595-552f-4cfe-82d8-1153a94fe615/edit?viewport_loc=-501%2C-117%2C3435%2C1461%2CYJQxwOBcrlb2&invitationId=inv_8df176ea-ca6b-4aaa-843a-7b225b34a270)
+ 
+ [cruddur conceptual diagram shared link for your comments ](https://lucid.app/lucidchart/48ac2595-552f-4cfe-82d8-1153a94fe615/edit?viewport_loc=-162%2C-100%2C2290%2C974%2C0_0&invitationId=inv_8df176ea-ca6b-4aaa-843a-7b225b34a270)
 
 
 
