@@ -18,6 +18,10 @@ import {
 
 const router = createBrowserRouter([
   {
+    path: "/",
+    element: <HomeFeedPage />
+  },
+  {
     path: "/notifications",
     element: <NotificationsFeedPage />
   },
