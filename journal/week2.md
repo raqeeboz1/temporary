@@ -8,7 +8,7 @@
 
 ## i named the OTEL service name in the docker compose file  .. -- added the other OTEL elemnts to the file too . 
 
-##added instrument packages to the requirements file 
+## added instrument packages to the requirements file 
 
 ## cretaed the trace files in app.py and initialized the tracing and initialized the automatic instrumentation to honeycomb in app.py 
 
