@@ -18,27 +18,39 @@
 
 ## i got some results and traces in Honeycomb ( see examples below )
 
-![Honeycomb Home ]()
+![Honeycomb Home ](assets/Honeycomb%201.JPG)
 
-![Honeycomb recent traces ]()
+![Honeycomb recent traces ](assets/Honeycomb%202.JPG)
 
-![Honycomb trace example " Trace 770dc482521f993d809a052c1ebb6481 "]()
+![Honycomb trace example " Trace 770dc482521f993d809a052c1ebb6481 "](assets/Honeycomb%203.JPG)
 
 ## i went through the trace and checked the attributes mentioned there . i can see the service name , the time stamp , the duration .
 
 ## to have some spans we need to accuire a trace then create some spans to visualize them in honeycomb 
 
+![recent traces showing different spans in the trace ](assets/Honeycomb%204.JPG)
+
 ## after creating the spans i got some more spans in the same trace as shown .
 
-![Home-activities-mock-data span example ]()
+![Home-activities-mock-data span example ](assets/Honeycomb%205.JPG)
 
 ## added some attributes to the spans . ( our custom attributes ) 
 
 ## we got the new custom attribute mentioned in the span details (result length)
 
-![app.result_length attribute example ]()
 
-## 
+![app.result_length attribute example ](assets/Honeycomb%206.JPG)
 
+## use the query services in Honeycomb to visualize our traces 
+
+![run query example ](assets/Honeycomb%207.JPG)
+
+## extend more visualization to specific time 
+![zoom visualiztion to specific time ](assets/Honeycomb%208.JPG)
+
+![zoom visualiztion to specific time ](assets/Honeycomb%209.JPG)
+
+
+## after adding the spans and attributes we could see more detailed info for our trace . i faced a problem at first trying to get the data to honey comb . with reopening the enviroment again everything was fixed  .
 
 
