@@ -16,4 +16,29 @@
 
 ## added additional step to wiew logs in the backend flask app by creating additional initialized tracer and exporter for console logs 
 
+## i got some results and traces in Honeycomb ( see examples below )
+
+![Honeycomb Home ]()
+
+![Honeycomb recent traces ]()
+
+![Honycomb trace example " Trace 770dc482521f993d809a052c1ebb6481 "]()
+
+## i went through the trace and checked the attributes mentioned there . i can see the service name , the time stamp , the duration .
+
+## to have some spans we need to accuire a trace then create some spans to visualize them in honeycomb 
+
+## after creating the spans i got some more spans in the same trace as shown .
+
+![Home-activities-mock-data span example ]()
+
+## added some attributes to the spans . ( our custom attributes ) 
+
+## we got the new custom attribute mentioned in the span details (result length)
+
+![app.result_length attribute example ]()
+
 ## 
+
+
+
