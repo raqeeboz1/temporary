@@ -65,16 +65,21 @@
 ## setup resources in xray.json file 
 
 ## created xray group using aws cli 
-![x-ray group ]()
+![x-ray group ](assets/X-RAY%201.JPG)
+![](assets/X-RAY%203.JPG)
 
 ## created sampling rule 
-![sampling rule examle ]()
+![sampling rule examle ](assets/X-RAY%202.JPG)
+![](assets/X-RAY%204.JPG)
 
 
 ## added Deamon Service to Docker Compose file and the env vars too . 
 
 ## checked the logs for xray deamon . 
-![segments are sent through deamon ]()
+![segments are sent through deamon ](assets/X-RAY%20daemon%20logs.JPG)
 
 ## checked traces in cloudwatch 
-![xray traces in cloud watch ]()
+![xray traces in cloud watch ](assets/X-RAY%20traces%20in%20cloudwatch.JPG)
+
+## segments are showing in x-ray traces 
+![segments timeline in xray cloudwatch ](assets/segment%20example%20in%20x-ray%20traces.JPG)
