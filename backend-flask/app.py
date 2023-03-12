@@ -30,7 +30,7 @@ from aws_xray_sdk.ext.flask.middleware import XRayMiddleware
 #X-RAY --------------
 xray_url = os.getenv("AWS_XRAY_URL")
 xray_recorder.configure(service='backend-flask', dynamic_naming=xray_url)
-XRayMiddleware(app, xray_recorder)
+
 
 # Initialize tracing and an exporter that can send data to Honeycomb... 
 provider = TracerProvider()
@@ -41,6 +41,10 @@ tracer = trace.get_tracer(__name__)
 
 
 app = Flask(__name__)
+
+#X-RAY --------------
+XRayMiddleware(app, xray_recorder)
+
 
 # Initialize automatic instrumentation with Flask for honeycomb .. 
 
