@@ -54,3 +54,27 @@
 ## after adding the spans and attributes we could see more detailed info for our trace . i faced a problem at first trying to get the data to honey comb . with reopening the enviroment again everything was fixed  .
 
 
+## updated the yml file with npm i to save time when launching gitpod 
+
+## started instrumenting x-ray for flask 
+
+## added the sdk file to requirments file and reinstall again 
+
+## added import libraries to app.py 
+
+## setup resources in xray.json file 
+
+## created xray group using aws cli 
+![x-ray group ]()
+
+## created sampling rule 
+![sampling rule examle ]()
+
+
+## added Deamon Service to Docker Compose file and the env vars too . 
+
+## checked the logs for xray deamon . 
+![segments are sent through deamon ]()
+
+## checked traces in cloudwatch 
+![xray traces in cloud watch ]()
