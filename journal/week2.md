@@ -93,3 +93,25 @@
 ![log info about batch sent segment ](assets/batch%20sent%201%20segment.JPG)
 
 ![segment details for user activities trace](assets/segment%20details%20for%20user%20activities%20trace.JPG)
+
+##updating for CloudWatch Logs
+
+## added logger info in homea activities page 
+
+## added all imports in app.py file 
+
+## added aws vars in docker file 
+
+## cruddur log group created 
+![crudder log group created ](assets/CRUDDUR%20LOG%20GROUP%20CREATED.JPG)
+
+## logs are shown 
+![log example 1](assets/log%20example%201.JPG)
+
+![log example 2](assets/log%20example%202.JPG)
+
+## updated my files and hashed some log codes for cloud watch and xray  to avoid cost spent 
+
+
+
+
