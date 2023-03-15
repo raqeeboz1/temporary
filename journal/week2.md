@@ -83,3 +83,13 @@
 
 ## segments are showing in x-ray traces 
 ![segments timeline in xray cloudwatch ](assets/segment%20example%20in%20x-ray%20traces.JPG)
+
+## i tried again to check some traces and see more segment details 
+
+## we see also user activities segment trace details sent too 
+
+![traces shown in aws ](assets/traces%20for%20user%20activities.JPG)
+
+![log info about batch sent segment ](assets/batch%20sent%201%20segment.JPG)
+
+![segment details for user activities trace](assets/segment%20details%20for%20user%20activities%20trace.JPG)
