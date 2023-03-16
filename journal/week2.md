@@ -113,5 +113,31 @@
 ## updated my files and hashed some log codes for cloud watch and xray  to avoid cost spent 
 
 
+# ROLLBAR
+
+## logged to ROLLBAR and added flask app 
+
+## got my tokens 
+![ROLLBAR TOKENS ](assets/rollbar%20token.JPG)
+
+## added my imports to app.py 
+
+## updated the requirments file with the new requirments 
+
+## checked my endpoint rollbar test .
+
+![rollbar endpoint point](assets/rollbar%20test%20point.JPG)
+
+## rollbar items received in rollbar 
+![rollbar items received ](assets/rollbar%20items%20received.JPG)
+
+## checked the item details for hello world item 
+![item helloworld 1](assets/item%20hello%20world%201.JPG)
+
+![item hello world 2](assets/item%20hello%20world%202.JPG)
+
+## end of week 2 
+
+
 
 
