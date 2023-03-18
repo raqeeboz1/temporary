@@ -17,6 +17,10 @@ export default function ConfirmationPage() {
   const code_onchange = (event) => {
     setCode(event.target.value);
   }
+  const email_onchange = (event) => {
+    setEmail(event.target.value);
+  }
+
   const resend_code = async (event) => {
     setErrors('')
     try {
@@ -36,7 +40,6 @@ export default function ConfirmationPage() {
     }
   }
 
-  
   const onsubmit = async (event) => {
     event.preventDefault();
     setErrors('')
