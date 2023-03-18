@@ -14,7 +14,7 @@ export default function SigninPage() {
 
   
 
-  cconst onsubmit = async (event) => {
+  const onsubmit = async (event) => {
     setCognitoErrors('')
     event.preventDefault();
     try {
