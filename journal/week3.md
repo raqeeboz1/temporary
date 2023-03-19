@@ -33,3 +33,6 @@
 ## recovery page updated 
 
 ![recovery page ](assets/recovery%20page.JPG)
+
+
+## verified JWT token in server side . i faced alot of implementing problems but i managed to copy andrew code for token.py and everything worked . i tried to check and understand  all the changes occured . 
