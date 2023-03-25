@@ -44,3 +44,9 @@
 
 ## tried to seed data and all data was seeded . 
 ![data seeded ](assets/data%20is%20seeded.JPG)
+
+## updated bash files with color scheme and some script to avoid running files each time . 
+
+##  replace our mock endpoint with real api call in home activities 
+
+
