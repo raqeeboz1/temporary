@@ -41,8 +41,6 @@ import rollbar
 import rollbar.contrib.flask
 from flask import got_request_exception
 
-allow_headers = ["content-type","if-modified-since","traceparent", "Authorization"]
-
 # Configuring Logger to Use CloudWatch
 # LOGGER = logging.getLogger(__name__)
 # LOGGER.setLevel(logging.DEBUG)
