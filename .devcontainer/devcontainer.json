@@ -37,7 +37,10 @@
 				
 			}
 		}
-	}
+	},
+	
+	
+
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 
@@ -52,6 +55,8 @@
 
 	// Uncomment the next line to run commands after the container is created.
 	// "postCreateCommand": "cat /etc/os-release",
+	"postCreateCommand": "cd /workspaces/aws-bootcamp-cruddur-2023/frontend-react-js && npm update -g && npm i",
+	"postCreateCommand": "bash .devcontainer/postCreateCommand.sh"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
