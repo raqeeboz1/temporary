@@ -41,7 +41,6 @@ import rollbar
 import rollbar.contrib.flask
 from flask import got_request_exception
 
-allow_headers = ["content-type","if-modified-since","traceparent", "Authorization"]
 
 # Configuring Logger to Use CloudWatch
 # LOGGER = logging.getLogger(__name__)
@@ -93,7 +92,8 @@ origins = [frontend, backend]
 cors = CORS(
   app, 
   resources={r"/api/*": {"origins": origins}},
-  headers=['Content-Type', 'Authorization'], 
+  #allow_headers = ["content-type","if-modified-since","traceparent", "Authorization"]
+  headers=["content-type","if-modified-since","traceparent", "Authorization"],
   expose_headers='Authorization',
   methods="OPTIONS,GET,HEAD,POST"
 )
