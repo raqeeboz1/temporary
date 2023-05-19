@@ -1,7 +1,7 @@
 
 INSERT INTO public.users (display_name, email, handle, cognito_user_id)
-VALUES
-  ('Mohammed Alhaijamy','mohammed@alhaijmay.com','alhaijamy' ,'61b60a42-e046-4c56-b231-fcfa0acb581c'),
+VALUES61b60a42
+  ('Mohammed Alhaijamy','mohammed@alhaijmay.com','alhaijamy' ,'MOCK'),
   ('Ahmed Alhaijamy', 'ahmed@alhaijamy.com','ahmed' ,'MOCK'),
   ('Harry Potter', 'harry@alhaijamy.com','harry' ,'MOCK');
 

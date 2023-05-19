@@ -137,7 +137,7 @@ def data_message_groups():
     app.logger.debug("authenicated")
     app.logger.debug(claims)
     cognito_user_id = claims['sub']
-    model = MessageGroups.run(cognito_user_id=61b60a42-e046-4c56-b231-fcfa0acb581c)
+    model = MessageGroups.run(cognito_user_id=cognito_user_id)
     if model['errors'] is not None:
       return model['errors'], 422
     else:
